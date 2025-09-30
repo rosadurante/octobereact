@@ -1,4 +1,5 @@
-import { Section } from "./section"
+import { Section } from "./components/section"
+import { TablePagination } from "./sections/tablePagination"
 
 export const Challenges = () => {
 
@@ -8,13 +9,12 @@ export const Challenges = () => {
       description: (
         <>
           <p>You start your journey by building a paginated table. In this case, it will load random data an will set dynamically the pagination and will enable/disable the right buttons to interact with it. TailwindCSS ensures the layout is responsive and visually appealing, highlighting hover rows.</p>
-          <p>Tools: React, TailwindCSS, useState</p>
-          <p>Stretch goal: Add a filter function to the table.</p>
+          <p>Tools: React, TailwindCSS, useState, useEffect, useMemo</p>
         </>
       ),
       children: (
         <>
-          <p>Paginated table goes here...</p>
+          <TablePagination />
         </>
       ),
     },

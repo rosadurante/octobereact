@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { Intro } from './sections/intro'
-import { Challenges } from './components/challenges'
+import { Challenges } from './challenges'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
