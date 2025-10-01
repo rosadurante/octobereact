@@ -79,7 +79,11 @@ export const TodoList = () => {
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTitle(e.target.value)}
             onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
               if (e.key === "Enter") {
-                _addTodo();
+                if (editingTodo) {
+                  _saveTodo();
+                } else {
+                  _addTodo();
+                }
               }
             }}
             className="w-full p-2 rounded-md bg-[#ccc]" />
