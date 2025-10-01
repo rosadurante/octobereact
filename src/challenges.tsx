@@ -1,5 +1,6 @@
 import { Section } from "./components/section"
 import { TablePagination } from "./sections/tablePagination"
+import { TodoList } from "./sections/todoList"
 
 export const Challenges = () => {
 
@@ -23,13 +24,12 @@ export const Challenges = () => {
       description: (
         <>
           <p>Next challenge is a dynamic todo list. This is not just a static list; users can add tasks, mark them complete, or delete them. Each task enters and leaves with smooth animations, fading or sliding into view. TailwindCSS ensures the layout is responsive and visually appealing, highlighting completed tasks differently from pending ones. By the end of this day, you’ll have a fully functional, animated todo list.</p>
-          <p>Tools: React, TailwindCSS, useState</p>
-          <p>Stretch goal: Add a search function to filter tasks by title.</p>
+          <p>Tools: React, TailwindCSS, Motion, useState, Lucide Icons</p>
         </>
       ),
       children: (
         <>
-          <p>Dynamic todo list goes here...</p>
+          <TodoList />
         </>
       ),
     },
