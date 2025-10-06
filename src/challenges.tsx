@@ -2,6 +2,7 @@ import { Section } from "./components/section"
 import { TablePagination } from "./sections/tablePagination"
 import { TodoList } from "./sections/todoList"
 import { NotifyMe } from "./sections/notifyme"
+import { TicTacToe } from "./sections/ticTacToe"
 
 export const Challenges = () => {
 
@@ -53,12 +54,12 @@ export const Challenges = () => {
       description: (
         <>
           <p>Tic-tac-toe is a classic game that can be implemented using React and TailwindCSS. It is a two-player game where the players take turns marking the spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. By the end of this day, you will have a fully functional, animated tic-tac-toe game.</p>
-          <p>Tools: React, TailwindCSS, Motion, useState, Lucide Icons</p>
+          <p>Tools: React, TailwindCSS, useState, useMemo, useEffect</p>
         </>
       ),
       children: (
         <>
-          <p>Tic-tac-toe game will be here ... </p>
+          <TicTacToe />
         </>
       ),
     },
