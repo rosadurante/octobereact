@@ -3,6 +3,7 @@ import { TablePagination } from "./sections/tablePagination"
 import { TodoList } from "./sections/todoList"
 import { NotifyMe } from "./sections/notifyme"
 import { TicTacToe } from "./sections/ticTacToe"
+import { PanelForm } from "./sections/panelForm"
 
 export const Challenges = () => {
 
@@ -64,16 +65,16 @@ export const Challenges = () => {
       ),
     },
     {
-      title: "Day 5: Wizard form",
+      title: "Day 5: Panel form",
       description: (
         <>
-          <p>In this case, it will create a system that allows the user to search for a GIF and display it. It will use the GIPHY API to search for GIFs. The gif selected will be able to copy the URL to the clipboard.</p>
-          <p>Tools: React, TailwindCSS, GYPHY API, Motion, useState, Lucide Icons</p>
+          <p>In this case, it will create a system that allows the user to fill a form that will appears in a panel. It will validate, submit and will show a summary of the form at the end.</p>
+          <p>Tools: React, TailwindCSS, Motion, React Hook Form, useState, Lucide Icons</p>
         </>
       ),
       children: (
         <>
-          <p>Find a GIF will be here ... </p>
+          <PanelForm />
         </>
       ),
     },
