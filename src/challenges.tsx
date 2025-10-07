@@ -4,6 +4,7 @@ import { TodoList } from "./sections/todoList"
 import { NotifyMe } from "./sections/notifyme"
 import { TicTacToe } from "./sections/ticTacToe"
 import { PanelForm } from "./sections/panelForm"
+import { Geometrics } from "./sections/geometrics"
 
 export const Challenges = () => {
 
@@ -88,7 +89,7 @@ export const Challenges = () => {
       ),
       children: (
         <>
-          <p>Geometry fun will be here ... </p>
+          <Geometrics />
         </>
       ),
     },
