@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button, IconButton } from "../components/button"
-import { cn } from "../utils"
+import { cn } from "./notifyme/utils"
 import { motion, AnimatePresence } from "framer-motion"
 import { CheckCheck, Edit, X } from "lucide-react"
 

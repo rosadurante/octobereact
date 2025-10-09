@@ -1,5 +1,4 @@
-import { cn } from "../utils"
-
+import { cn } from "../sections/notifyme/utils"
 
 export const Button = ({ label, type="button", onClick, disabled, className }: { label: string, type?: "button" | "submit" | "reset", onClick: () => void, disabled?: boolean, className?: string }) => {
   return (

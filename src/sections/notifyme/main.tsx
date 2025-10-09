@@ -1,11 +1,11 @@
 import { useState } from "react"
 import { X } from "lucide-react"
-import { Button, IconButton } from "../components/button"
-import { Toast } from "../components/toast"
-import { Banner } from "../components/banner"
-import { useNotification } from "../hooks/useNotification"
-import type { NotificationMode, NotificationType } from "../types/notification"
-import { NotificationProvider } from "../providers/notification"
+import { Button, IconButton } from "../../components/button"
+import { Toast } from "./components/toast"
+import { Banner } from "./components/banner"
+import { useNotification } from "./hooks/useNotification"
+import type { NotificationMode, NotificationType } from "./types/notification"
+import { NotificationProvider } from "./providers/notification"
 
 
 export const NotifyMe = () => {

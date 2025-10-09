@@ -52,7 +52,7 @@ export const TicTacToe = () => {
     }
     return false;
     // Only recalculate if the gameTurns has updated.
-  }, [gameTurns]);
+  }, [gameBoard]);
 
   const _isFinished = useMemo(() => {
     return gameTurns.length === 9;

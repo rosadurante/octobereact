@@ -1,9 +1,9 @@
 import { Section } from "./components/section"
 import { TablePagination } from "./sections/tablePagination"
 import { TodoList } from "./sections/todoList"
-import { NotifyMe } from "./sections/notifyme"
+import { NotifyMe } from "./sections/notifyme/main"
 import { TicTacToe } from "./sections/ticTacToe"
-import { PanelForm } from "./sections/panelForm"
+import { PanelForm } from "./sections/panelForm/main"
 import { Geometrics } from "./sections/geometrics"
 import { CatGallery } from "./sections/catGallery"
 
