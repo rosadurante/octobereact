@@ -5,6 +5,7 @@ import { NotifyMe } from "./sections/notifyme"
 import { TicTacToe } from "./sections/ticTacToe"
 import { PanelForm } from "./sections/panelForm"
 import { Geometrics } from "./sections/geometrics"
+import { CatGallery } from "./sections/catGallery"
 
 export const Challenges = () => {
 
@@ -90,6 +91,20 @@ export const Challenges = () => {
       children: (
         <>
           <Geometrics />
+        </>
+      ),
+    },
+    {
+      title: "Day 7: Cat Gallery",
+      description: (
+        <>
+          <p>Let's create a cat gallery. This challenge will be a learning experience to the basics of Axios and how to use it to fetch data from an API. We will build three colum gallery with lightbox to display larger image.</p>
+          <p>Tools: React, TailwindCSS, Axios, Motion</p>
+        </>
+      ),
+      children: (
+        <>
+          <CatGallery />
         </>
       ),
     },
