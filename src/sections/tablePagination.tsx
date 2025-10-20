@@ -33,7 +33,7 @@ export const TablePagination = () => {
   }, [totalCount, pageSize]);
 
   return (
-    <div className="flex flex-col gap-2 text-left overflow-y-auto">
+    <div className="flex flex-col gap-2 text-left overflow-y-auto w-full">
     <div className="flex gap-2 items-center justify-start">
       <label htmlFor="pageSize">Edit Page Size: </label>
         <input type="number" value={pageSize}

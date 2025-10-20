@@ -6,6 +6,10 @@ import { TicTacToe } from "./sections/ticTacToe"
 import { PanelForm } from "./sections/panelForm/main"
 import { Geometrics } from "./sections/geometrics"
 import { CatGallery } from "./sections/catGallery"
+import { TabsManager } from "./sections/tabsManager/main"
+import { WeatherCard } from "./sections/weatherCard/main"
+import { ProgressBar } from "./sections/progressBar"
+import { Charts } from "./sections/charts/main"
 
 export const Challenges = () => {
 
@@ -105,6 +109,189 @@ export const Challenges = () => {
       children: (
         <>
           <CatGallery />
+        </>
+      ),
+    },
+    {
+      title: "Day 8: Tabs Manager",
+      description: (
+        <>
+          <p>In this case, let's create a tabs manager. This challenge will be a learning experience to the basics of Tabs and how to use them to display different content.</p>
+          <p>Tools: React, TailwindCSS, Motion, useState, Lucide Icons</p>
+        </>
+      ),
+      children: (
+        <>
+          <TabsManager />
+        </>
+      ),
+    },
+    {
+      title: "Day 9: Weather Card",
+      description: (
+        <>
+          <p>A weather card will end up being a component to display the weather of a current city and a specific day. It'll display all basic information and animated graphics to a easy display of the current weather. </p>
+          <p>Tools: React, TailwindCSS, Axios, Motion, Lucide Icons</p>
+        </>
+      ),
+      children: (
+        <>
+          <WeatherCard />
+        </>
+      ),
+    },
+    {
+      title: "Day 10: Progress bar",
+      description: (
+        <>
+          <p>Let's create few samples of a dynamic progress bar component. Let's take a chance to create an example with svg tag and animate it. </p>
+          <p>Tools: React, TailwindCSS, SVG, Motion, Lucide Icons</p>
+        </>
+      ),
+      children: (
+        <>
+          <ProgressBar />
+        </>
+      ),
+    },
+    {
+      title: "Day 11: Charts",
+      description: (
+        <>
+          <p>Let's create few samples of a dynamic charts using ChartJS and D3.js. We'll pull data from an public API and display it in different types of charts. </p>
+          <p>Tools: React, TailwindCSS, ChartJS, D3.js, Motion, Lucide Icons</p>
+        </>
+      ),
+      children: (
+        <>
+          <Charts />
+        </>
+      ),
+    },
+    {
+      title: "Day 12: Dependent form fields",
+      description: (
+        <>
+          <p>This time we'll create a meta field for a form field where depend of the value input it will display or not a dependant extra field to fill more information related to it.  </p>
+          <p>Tools: React, TailwindCSS, React Hook Form, Lucide Icons</p>
+        </>
+      ),
+      children: (
+        <>
+          <p>Dependent form fields will be here ...</p>
+        </>
+      ),
+    },
+    {
+      title: "Day 13: Responsive Navbar",
+      description: (
+        <>
+          <p>Let's create a responsive navbar. We'll find an atractive and mobile first design and  we'll use the TailwindCSS and Motion to create it. </p>
+          <p>Tools: React, TailwindCSS, Motion, Lucide Icons</p>
+        </>
+      ),
+      children: (
+        <>
+          <p>Responsive Navbar will be here ...</p>
+        </>
+      ),
+    },
+    {
+      title: "Day 14: Login / register site",
+      description: (
+        <>
+          <p>In this challenge we'll create a login and register section that can be used in any site. We'll use the TailwindCSS and Motion to make a smooth animation and will simulate to log/sign it. </p>
+          <p>Tools: React, TailwindCSS, SVG, Motion, Lucide Icons</p>
+        </>
+      ),
+      children: (
+        <>
+          <p>Login / register site will be here ...</p>
+        </>
+      ),
+    },
+    {
+      title: "Day 15: Quiz Game",
+      description: (
+        <>
+          <p>Using open trivial API we'll create a quiz game. We'll use the TailwindCSS and Motion to make a smooth animation and will simulate to log/sign it. I'll let up to 4 players to play and will be update the counter on each turn.</p>
+          <p>Tools: React, TailwindCSS, SVG, Motion, Lucide Icons</p>
+        </>
+      ),
+      children: (
+        <>
+          <p>Quiz Game will be here ...</p>
+        </>
+      ),
+    },
+    {
+      title: "Day 16: Drag and drop",
+      description: (
+        <>
+          <p>In this challenge we'll create a drag and drop component. We'll use the TailwindCSS and Motion to make a smooth animation and will simulate to drag and drop it. </p>
+          <p>Tools: React, TailwindCSS, SVG, Motion, Lucide Icons, React Beautiful DnD</p>
+        </>
+      ),
+      children: (
+        <>
+          <p>Drag and drop will be here ...</p>
+        </>
+      ),
+    },
+    {
+      title: "Day 17: Weekly weather cards",
+      description: (
+        <>
+          <p>Using open weather API we'll create a meta card where will display the weather in the current day and the next 7 days. We'll use the TailwindCSS and Motion to make a smooth animation and will animate the weather icons and the temperature. </p>
+          <p>Tools: React, TailwindCSS, SVG, Motion, Lucide Icons, Axios</p>
+        </>
+      ),
+      children: (
+        <>
+          <p>Weekly weather cards will be here ...</p>
+        </>
+      ),
+    },
+    {
+      title: "Day 18: Buttons Variants",
+      description: (
+        <>
+          <p>In this challenge we'll create a huge set of different buttons using variants. We'll use the TailwindCSS and Motion to make a smooth animation on hover and active states.</p>
+          <p>Tools: React, TailwindCSS, SVG, Motion, Lucide Icons</p>
+        </>
+      ),
+      children: (
+        <>
+          <p>Buttons Variants will be here ...</p>
+        </>
+      ),
+    },
+    {
+      title: "Day 19: Wizard form",
+      description: (
+        <>
+          <p>In this challenge we'll create a wizard form. We'll use the TailwindCSS and Motion to make a smooth animation and will simulate to fill a form step by step. </p>
+          <p>Tools: React, TailwindCSS, SVG, Motion, Lucide Icons, React Hook Form</p>
+        </>
+      ),
+      children: (
+        <>
+          <p>Wizard form will be here ...</p>
+        </>
+      ),
+    },
+
+    {
+      title: "Day 23: BomBerm Game",
+      description: (
+        <>
+          <p>In this challenge we'll create a BomBerm Game. We'll use the TailwindCSS and Motion to make a smooth animation and will simulate to play the game. </p>
+          <p>Tools: React, TailwindCSS, SVG, Motion, Lucide Icons</p>
+        </>
+      ),
+      children: (
+        <>
+          <p>BomBerm Game will be here ...</p>
         </>
       ),
     },

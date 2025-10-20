@@ -72,7 +72,7 @@ export const TodoList = () => {
   }
 
   return (
-    <div className="space-y-8 h-full overflow-y-auto px-4">
+    <div className="space-y-8 h-full overflow-y-auto px-4 flex flex-col w-full">
       <div className="flex flex-row gap-2 text-left ">
         <div className="flex-1">
           <input type="text" placeholder="Add a new task" value={title}
