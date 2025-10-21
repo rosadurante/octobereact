@@ -52,8 +52,8 @@ export const Charts = () => {
             outerRadius={60}
             fill="#8884d8"
           >
-            {types.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+            {types.map((type, index) => (
+              <Cell key={`cell-${type.name}`} fill={COLORS[index % COLORS.length]} />
             ))}
           </Pie>
           <Tooltip />
